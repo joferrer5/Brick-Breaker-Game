@@ -5,10 +5,12 @@ class_name Paddle
 var direction = Vector2.ZERO
 var camera_rect: Rect2
 var half_paddle_width: float
+var is_ball_started = false
 
 @export var speed = 200
 @export var camera: Camera2D
 
+@onready var ball = $"../Ball" as Ball
 @onready var collision_shape_2d = $CollisionShape2D
 
 func _ready():
@@ -27,10 +29,15 @@ func _process(delta):
 	elif global_position.x + half_paddle_width > camera_end_x:
 		global_position.x = camera_end_x - half_paddle_width
 
+
 func _input(event):
-		if Input.is_action_pressed("left"):
-			direction = Vector2.LEFT
-		elif Input.is_action_pressed("right"):
-			direction = Vector2.RIGHT
-		else:
-			direction = Vector2.ZERO
+	if Input.is_action_pressed("left"):
+		direction = Vector2.LEFT
+	elif Input.is_action_pressed("right"):
+		direction = Vector2.RIGHT
+	else:
+		direction = Vector2.ZERO
+
+	if direction != Vector2.ZERO && !is_ball_started:
+		ball.start_ball()
+		is_ball_started = true
