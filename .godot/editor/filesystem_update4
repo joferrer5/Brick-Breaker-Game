@@ -1,7 +1,5 @@
 res://ball.tscn
 res://ball.gd
-res://paddle.tscn
-res://Scrips/paddle.gd
 res://Scenes/main.tscn
-res://rigid_body_2d.tscn
+res://paddle.tscn
 res://wall.tscn
