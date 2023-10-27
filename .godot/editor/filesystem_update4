@@ -1,3 +1,6 @@
 res://Scenes/main.tscn
+<<<<<<< Updated upstream
 res://Scrips/paddle.gd
+=======
+>>>>>>> Stashed changes
 res://character_body_2d.tscn
