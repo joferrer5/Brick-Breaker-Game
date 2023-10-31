@@ -1,2 +1,2 @@
-res://Scenes/main.tscn
-res://paddle.tscn
+res://death_zone.tscn
+res://death_zone.gd
