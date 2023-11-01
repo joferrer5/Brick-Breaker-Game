@@ -1,9 +1,11 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1698775893
+::res://::1698792727
 ball.gd::GDScript::-1::1698441232::0::1::::Ball<>CharacterBody2D<>::
 ball.tscn::PackedScene::3080129578223165103::1698441232::0::1::::<><>::res://ball.gd<>uid://c8l7ke1ygg27h
+death_zone.gd::GDScript::-1::1698776380::0::1::::<>Area2D<>::
+death_zone.tscn::PackedScene::7201555047689970912::1698776431::0::1::::<><>::res://death_zone.gd
 icon.svg::CompressedTexture2D::8357895035410672973::1698092022::1698092032::1::::<><>::
-paddle.tscn::PackedScene::8136398106871017803::1698697216::0::1::::<><>::res://Scrips/paddle.gd<>uid://ckbmlemetbql1::::res://Assets/Paddle.png
+paddle.tscn::PackedScene::8136398106871017803::1698697216::0::1::::<><>::res://Scrips/paddle.gd<>uid://ckbmlemetbql1
 rigid_body_2d.tscn::PackedScene::678211404581264235::1698441232::0::1::::<><>::
 wall.tscn::PackedScene::2006244613121429656::1698441232::0::1::::<><>::
 ::res://Assets/::1698092505
@@ -18,6 +20,6 @@ icon.svg::CompressedTexture2D::7753658774376271310::1698092504::1698092505::1:::
 Paddle.png::CompressedTexture2D::5477542658004981000::1698092504::1698092505::1::::<><>::
 VT323-Regular.ttf::FontFile::4453843302194638347::1698092504::1698092505::1::::<><>::
 ::res://Scenes/::1698697216
-main.tscn::PackedScene::5014516985101129416::1698697216::0::1::::<><>::uid://dn6lj2aumq8ah::::res://paddle.tscn<>uid://bj5bjwp4spyvn::::res://ball.tscn<>uid://3t3s5l0jjqiq::::res://wall.tscn
+main.tscn::PackedScene::5014516985101129416::1698697216::0::1::::<><>::uid://dn6lj2aumq8ah
 ::res://Scrips/::1698441232
 paddle.gd::GDScript::-1::1698441232::0::1::::Paddle<>RigidBody2D<>::

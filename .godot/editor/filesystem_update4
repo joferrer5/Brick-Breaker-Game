@@ -1,2 +1,10 @@
 res://death_zone.tscn
 res://death_zone.gd
+res://Scenes/main.tscn
+res://ball.tscn
+res://ball.gd
+res://ui.tscn
+res://Scrips/ui.gd
+res://paddle.tscn
+res://wall.tscn
+res://Scrips/paddle.gd
