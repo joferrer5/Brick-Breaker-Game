@@ -1,3 +1,8 @@
+Marker2D
+Node
+CollisionShape2D
+Sprite2D
+RigidBody2D
 Button
 Label
 VBoxContainer
@@ -6,10 +11,6 @@ CenterContainer
 HBoxContainer
 MarginContainer
 CanvasLayer
-CollisionShape2D
 Area2D
-Node
-RigidBody2D
-Sprite2D
 CharacterBody2D
 Camera2D
