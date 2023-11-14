@@ -1,7 +1,7 @@
 [gd_scene load_steps=8 format=3 uid="uid://cdpcmkuswsgs3"]
 
 [ext_resource type="PackedScene" uid="uid://dn6lj2aumq8ah" path="res://paddle.tscn" id="1_25ctu"]
-[ext_resource type="PackedScene" path="res://Scenes/ball.tscn" id="2_6ywm0"]
+[ext_resource type="PackedScene" uid="uid://j3xlni1mmnax" path="res://Scenes/ball.tscn" id="2_6ywm0"]
 [ext_resource type="PackedScene" uid="uid://3t3s5l0jjqiq" path="res://wall.tscn" id="3_ra8e1"]
 [ext_resource type="PackedScene" uid="uid://dauqta0uydf8s" path="res://death_zone.tscn" id="4_doer2"]
 [ext_resource type="PackedScene" uid="uid://bmbhooyv4lkxd" path="res://ui.tscn" id="5_a57ea"]
@@ -47,7 +47,7 @@ position = Vector2(0, 621)
 [node name="BrickSpawner" type="Node" parent="." node_paths=PackedStringArray("spawn_start")]
 script = ExtResource("6_p5ohu")
 brick_scene = ExtResource("7_tsjk4")
-margin = null
+margin = Vector2(80, 40)
 spawn_start = NodePath("../Marker2D")
 
 [node name="Marker2D" type="Marker2D" parent="."]
