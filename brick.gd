@@ -36,7 +36,7 @@ func decrease_level():
 func fade_out():
 	collision_shape_2d.disabled = true
 	var tween = get_tree().create_tween()
-	tween.tween_property(sprite_2d, "modulate", Color.TRANSPARENT, .5)
+	tween.tween_property(sprite_2d, "Modulate", Color.TRANSPARENT, .5)
 	tween.tween_callback(destroy)
 	
 func destroy():
