@@ -74,7 +74,7 @@ func ball_collision(collider):
 	new_velocity.x = velocity_xy + collision_x
 	
 	if collider.get_rid() == last_collider_id && collider is Brick:
-		new_velocity.x = new_velocity.rotated(deg_to_rad(randf_range(-45, 45))).x * 10
+		new_velocity.x = new_velocity.rotated(deg_to_rad(randf_range(-45, 45))).x
 	else:
 		last_collider_id == collider.get_rid()
 	
