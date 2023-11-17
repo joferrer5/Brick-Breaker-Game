@@ -5,5 +5,5 @@ res://wall.tscn
 res://death_zone.tscn
 res://ui.tscn
 res://brick.tscn
-res://brick_spawner.gd
-res://Scripts/level_definitions.gd
+res://ball.gd
+res://Scripts/paddle.gd
