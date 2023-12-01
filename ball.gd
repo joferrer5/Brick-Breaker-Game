@@ -17,8 +17,10 @@ var last_collider_id
 
 @onready var collision_shape_2d = $CollisionShape2D
 
-
-
+# Audio var
+@onready var ball_hitting_brick = $"../MusicPack/BallHittingBrick"
+@onready var ball_hitting_wall = $"../MusicPack/BallHittingWall"
+@onready var ball_hitting_paddle = $"../MusicPack/BallHittingPaddle"
 
 func _ready():
 	ui.set_lifes(lifes)
@@ -33,9 +35,11 @@ func _physics_process(delta):
 	var collider = collision.get_collider()
 	if collider is Brick:
 		collider.decrease_level()
+		ball_hitting_brick.play()
 		
-	if (collider is Brick or collider is Paddle):
+	if (collider is Paddle):
 		ball_collision(collider)
+		ball_hitting_paddle.play()
 	else:
 		velocity = velocity.bounce(collision.get_normal())
 
@@ -82,4 +86,3 @@ func ball_collision(collider):
 	var speed_multiplier = speed_up_factor if collider is Paddle else 1
 	
 	velocity = (new_velocity * speed_multiplier).limit_length(VELOCITY_LIMIT)
-

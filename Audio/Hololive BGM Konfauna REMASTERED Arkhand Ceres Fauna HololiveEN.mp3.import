@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cmn0rc1ju4e77"
+path="res://.godot/imported/Hololive BGM Konfauna REMASTERED Arkhand Ceres Fauna HololiveEN.mp3-542aaad4998bfabafa75531c34b1a207.mp3str"
+
+[deps]
+
+source_file="res://Audio/Hololive BGM Konfauna REMASTERED Arkhand Ceres Fauna HololiveEN.mp3"
+dest_files=["res://.godot/imported/Hololive BGM Konfauna REMASTERED Arkhand Ceres Fauna HololiveEN.mp3-542aaad4998bfabafa75531c34b1a207.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

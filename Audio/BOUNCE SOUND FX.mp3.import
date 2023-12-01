@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cuh32xi5u1ulq"
+path="res://.godot/imported/BOUNCE SOUND FX.mp3-5b342436b0cc5d7b663cda1bc92af75d.mp3str"
+
+[deps]
+
+source_file="res://Audio/BOUNCE SOUND FX.mp3"
+dest_files=["res://.godot/imported/BOUNCE SOUND FX.mp3-5b342436b0cc5d7b663cda1bc92af75d.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
