@@ -42,6 +42,9 @@ func _physics_process(delta):
 		ball_hitting_paddle.play()
 	else:
 		velocity = velocity.bounce(collision.get_normal())
+		
+	if collider.is_in_group("Walls"):
+		$"../MusicPack/BallHittingWall".play()
 
 func start_ball():
 	position = start_position

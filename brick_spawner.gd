@@ -8,6 +8,7 @@ const ROWS = 6
 @onready var ball = $"../Ball" as Ball
 @onready var ui = $"../UI" as UI
 @onready var bgm = $"../MusicPack/BGM"
+@onready var game_won = $"../MusicPack/GameWon"
 
 @export var brick_scene: PackedScene
 @export var margin: Vector2 = Vector2(8,8)
@@ -44,3 +45,4 @@ func on_brick_destroyed():
 	if brick_count == 0:
 		ball.stop_ball()
 		bgm.stop()
+		game_won.play()
