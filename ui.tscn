@@ -103,4 +103,4 @@ text = "NEXT LEVEL
 "
 
 [connection signal="pressed" from="GameLostContainer/Panel/VBoxContainer/GameLostButton" to="." method="_on_game_lost_button_pressed"]
-[connection signal="pressed" from="GameWonContainer/Panel/VBoxContainer/GameWonButton" to="." method="_on_game_won_button_pressed"]
+[connection signal="pressed" from="GameWonContainer/Panel/VBoxContainer/GameWonButton" to="." method="_on_level_won_button_pressed"]
