@@ -49,11 +49,14 @@ func spawn_from_defintion(level_defintion):
 	var rows = level_defintion.size()
 	var columns = level_defintion[0].size()
 	
-	
+
 	var row_width = brick_size.x * columns + margin.x * (columns - 1)
 	var spawn_position_x = (-row_width  + brick_size.x  + margin.x) / 2 
 	var spawn_position_y = spawn_start.position.y
 	
+	
+	if level_defintion == LevelDefinitions.level_1:
+		spawn_position_y += 270
 	for i in rows:
 		for j in columns:
 			if level_defintion[i][j] == 0:
@@ -67,6 +70,7 @@ func spawn_from_defintion(level_defintion):
 			brick.set_position(Vector2(x, y))
 			brick.brick_destroyed.connect(on_brick_destroyed)
 			brick_count += 1
+			
 
 func on_brick_destroyed():
 	brick_count -= 1
