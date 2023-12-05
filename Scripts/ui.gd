@@ -17,6 +17,7 @@ func game_over():
 	game_lost_container.show()
 	$"../MusicPack/BGM".stop()
 	$"../MusicPack/GameLost".play()
+	LevelDefinitions.current_level = 1
 
 func _on_game_lost_button_pressed():
 	get_tree().reload_current_scene()

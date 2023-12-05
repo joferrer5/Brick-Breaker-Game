@@ -60,7 +60,7 @@ func spawn_from_defintion(level_defintion):
 	
 	
 	if level_defintion == LevelDefinitions.level_1:
-		spawn_position_y += 270
+		spawn_position_y += 0
 	for i in rows:
 		for j in columns:
 			if level_defintion[i][j] == 0:

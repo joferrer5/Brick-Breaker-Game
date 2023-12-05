@@ -14,7 +14,15 @@ var level_2 = [
 	[1,1,1,1,1,1,1,1]
 ]
 
-var levels = [level_1, level_2]
+var level_3 = [
+	[5,5,5,5,5,5,5,5],
+	[4,5,5,0,0,5,5,4],
+	[3,0,5,5,5,5,0,3],
+	[4,0,5,5,5,5,0,4],
+	[5,5,5,5,5,5,5,5]
+]
+
+var levels = [level_1, level_2, level_3]
 
 func get_current_level():
 	print(levels[0])
