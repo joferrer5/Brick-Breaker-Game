@@ -1,18 +1,18 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1701736873
-ball.gd::GDScript::-1::1701468126::0::1::::Ball<>CharacterBody2D<>::
-ball.tscn::PackedScene::3080129578223165103::1701736872::0::1::::<><>::res://ball.gd<>uid://c8l7ke1ygg27h::::res://Assets/Ball.png
-brick.gd::GDScript::-1::1701572201::0::1::::Brick<>RigidBody2D<>::
-brick.tscn::PackedScene::5907814955544000109::1701736873::0::1::::<><>::uid://d06ws4g0pu0q0::::res://Assets/Brick-Blue.png<>res://brick.gd
-brick_spawner.gd::GDScript::-1::1701736855::0::1::::BrickSpawner<>Node<>::
-death_zone.gd::GDScript::-1::1701410587::0::1::::DeathZone<>Area2D<>::
-death_zone.tscn::PackedScene::7201555047689970912::1701736872::0::1::::<><>::res://death_zone.gd
+::res://::1701740616
+ball.gd::GDScript::-1::1701740583::0::1::::Ball<>CharacterBody2D<>::
+ball.tscn::PackedScene::3080129578223165103::1701740583::0::1::::<><>::res://ball.gd<>uid://c8l7ke1ygg27h::::res://Assets/Ball.png
+brick.gd::GDScript::-1::1701740583::0::1::::Brick<>RigidBody2D<>::
+brick.tscn::PackedScene::5907814955544000109::1701737331::0::1::::<><>::uid://d06ws4g0pu0q0::::res://Assets/Brick-Blue.png<>res://brick.gd
+brick_spawner.gd::GDScript::-1::1701740583::0::1::::BrickSpawner<>Node<>::
+death_zone.gd::GDScript::-1::1701740583::0::1::::DeathZone<>Area2D<>::
+death_zone.tscn::PackedScene::7201555047689970912::1701740583::0::1::::<><>::res://death_zone.gd
 icon.svg::CompressedTexture2D::8357895035410672973::1698088422::1698088432::1::::<><>::
-paddle.tscn::PackedScene::8136398106871017803::1701736872::0::1::::<><>::res://Scripts/paddle.gd<>uid://ckbmlemetbql1::::res://Assets/Paddle.png
+paddle.tscn::PackedScene::8136398106871017803::1701740583::0::1::::<><>::res://Scripts/paddle.gd<>uid://ckbmlemetbql1::::res://Assets/Paddle.png
 rigid_body_2d.tscn::PackedScene::678211404581264235::1698437632::0::1::::<><>::
-ui.tscn::PackedScene::3231201978563133569::1701736872::0::1::::<><>::uid://b4pqfbvte11k6::::res://Assets/VT323-Regular.ttf<>res://Scripts/ui.gd
-wall.tscn::PackedScene::2006244613121429656::1701736872::0::1::::<><>::
-::res://Assets/::1701736230
+ui.tscn::PackedScene::3231201978563133569::1701737331::0::1::::<><>::uid://b4pqfbvte11k6::::res://Assets/VT323-Regular.ttf<>res://Scripts/ui.gd
+wall.tscn::PackedScene::2006244613121429656::1701737331::0::1::::<><>::
+::res://Assets/::1701740583
 Ball.png::CompressedTexture2D::7113742415800555843::1698088904::1698088905::1::::<><>::
 Brick-Blue.png::CompressedTexture2D::8979348304139843021::1698088904::1698088905::1::::<><>::
 Brick-Gray.png::CompressedTexture2D::8342798054112985360::1698088904::1698088905::1::::<><>::
@@ -23,7 +23,7 @@ Brick-Yellow.png::CompressedTexture2D::5772095262280393697::1698088904::16980889
 icon.svg::CompressedTexture2D::7753658774376271310::1698088904::1698088905::1::::<><>::
 Paddle.png::CompressedTexture2D::5477542658004981000::1701736230::1701736230::1::::<><>::
 VT323-Regular.ttf::FontFile::4453843302194638347::1701736230::1701736230::1::::<><>::
-::res://Audio/::1701737148
+::res://Audio/::1701737149
 8bit Click Sound Effect.mp3::AudioStreamMP3::6320051526970855886::1701468839::1701468878::1::::<><>::
 BGMLoading BGM Shiori Shiori NovellaHololive.mp3::AudioStreamMP3::29856063541042645::1701413747::1701413775::1::::<><>::
 BOUNCE SOUND FX.mp3::AudioStreamMP3::6192818398444484902::1701415200::1701415208::1::::<><>::
@@ -40,11 +40,11 @@ pluh.mp3::AudioStreamMP3::7362211293335990180::1701407808::1701407997::1::::<><>
 Retro Inspect Sound%2C UI%2C or In-Game Notification.mp3::AudioStreamMP3::1916736164580954702::1701415619::1701415703::1::::<><>::
 Untitled song.mp3::AudioStreamMP3::4664913010120011922::1701414935::1701415079::1::::<><>::
 WallHitSound.mp3::AudioStreamMP3::3757222187133675730::1701469219::1701469237::1::::<><>::
-::res://Scenes/::1701736872
-ball.tscn::PackedScene::690919000782378667::1699580862::0::1::::<><>::res://ball.gd<>uid://c8l7ke1ygg27h::::res://Assets/Ball.png
-brick.tscn::PackedScene::8331612800525191601::1699568402::0::1::::<><>::uid://d06ws4g0pu0q0::::res://Assets/Brick-Blue.png<>res://Scenes/brick.gd
-main.tscn::PackedScene::5014516985101129416::1701736872::0::1::::<><>::uid://dn6lj2aumq8ah::::res://paddle.tscn<>uid://j3xlni1mmnax::::res://Scenes/ball.tscn<>uid://3t3s5l0jjqiq::::res://wall.tscn<>uid://dauqta0uydf8s::::res://death_zone.tscn<>uid://bmbhooyv4lkxd::::res://ui.tscn<>res://brick_spawner.gd<>uid://cqf134v8pgqqn::::res://brick.tscn<>uid://cuh32xi5u1ulq::::res://Audio/BOUNCE SOUND FX.mp3<>uid://btsa5u7wurpxa::::res://Audio/WallHitSound.mp3<>uid://2kqmnp6nwgeo::::res://Audio/Retro Inspect Sound%2C UI%2C or In-Game Notification.mp3<>uid://b7pyo2xye4ukg::::res://Audio/Untitled song.mp3<>uid://opywdtuwja8::::res://Audio/BGMLoading BGM Shiori Shiori NovellaHololive.mp3<>uid://c3hw8prds3uaa::::res://Audio/caramelldansen-hd.mp3<>uid://375ecdntdmfy::::res://Audio/crowd_small_chil_ec049202_9klCwI6.mp3
-::res://Scripts/::1701736855
+::res://Scenes/::1701740583
+ball.tscn::PackedScene::690919000782378667::1701740583::0::1::::<><>::res://ball.gd<>uid://c8l7ke1ygg27h::::res://Assets/Ball.png
+brick.tscn::PackedScene::8331612800525191601::1699568402::0::1::::<><>::uid://d06ws4g0pu0q0
+main.tscn::PackedScene::5014516985101129416::1701740583::0::1::::<><>::uid://dn6lj2aumq8ah::::res://paddle.tscn<>uid://j3xlni1mmnax::::res://Scenes/ball.tscn<>uid://3t3s5l0jjqiq::::res://wall.tscn<>uid://dauqta0uydf8s::::res://death_zone.tscn<>uid://bmbhooyv4lkxd::::res://ui.tscn<>res://brick_spawner.gd<>uid://cqf134v8pgqqn::::res://brick.tscn<>uid://cuh32xi5u1ulq::::res://Audio/BOUNCE SOUND FX.mp3<>uid://btsa5u7wurpxa::::res://Audio/WallHitSound.mp3<>uid://2kqmnp6nwgeo::::res://Audio/Retro Inspect Sound%2C UI%2C or In-Game Notification.mp3<>uid://b7pyo2xye4ukg::::res://Audio/Untitled song.mp3<>uid://375ecdntdmfy::::res://Audio/crowd_small_chil_ec049202_9klCwI6.mp3
+::res://Scripts/::1701740583
 level_definitions.gd::GDScript::-1::1701736230::0::1::::<>Node<>::
 paddle.gd::GDScript::-1::1701736234::0::1::::Paddle<>RigidBody2D<>::
 ui.gd::GDScript::-1::1701736855::0::1::::UI<>CanvasLayer<>::
