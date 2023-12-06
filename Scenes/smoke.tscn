@@ -1,0 +1,37 @@
+[gd_scene load_steps=7 format=3 uid="uid://1vrafnyq1tsg"]
+
+[ext_resource type="Texture2D" uid="uid://5u67tnpvqsa7" path="res://Assets/SmokeBrickBreaker.png" id="1_0ft6x"]
+
+[sub_resource type="Gradient" id="Gradient_vtttx"]
+colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_lmh5e"]
+gradient = SubResource("Gradient_vtttx")
+
+[sub_resource type="Curve" id="Curve_hgmge"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="CurveTexture" id="CurveTexture_w88od"]
+curve = SubResource("Curve_hgmge")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_unp8m"]
+particle_flag_disable_z = true
+gravity = Vector3(0, 0, 0)
+initial_velocity_min = 25.0
+initial_velocity_max = 75.0
+orbit_velocity_min = 0.0
+orbit_velocity_max = 0.0
+damping_min = 30.0
+damping_max = 30.0
+scale_curve = SubResource("CurveTexture_w88od")
+color_ramp = SubResource("GradientTexture1D_lmh5e")
+turbulence_enabled = true
+
+[node name="Smoke" type="GPUParticles2D"]
+texture_filter = 1
+scale = Vector2(5, 5)
+amount = 30
+process_material = SubResource("ParticleProcessMaterial_unp8m")
+texture = ExtResource("1_0ft6x")
+explosiveness = 1.0
