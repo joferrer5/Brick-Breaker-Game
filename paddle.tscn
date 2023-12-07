@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://Scripts/paddle.gd" id="1_j2y3g"]
 [ext_resource type="Texture2D" uid="uid://ckbmlemetbql1" path="res://Assets/Paddle.png" id="1_uj2id"]
-[ext_resource type="PackedScene" uid="uid://1vrafnyq1tsg" path="res://Scenes/smoke.tscn" id="3_36wga"]
+[ext_resource type="PackedScene" uid="uid://drylkiy50g8qr" path="res://Scenes/spray.tscn" id="3_cjd0s"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xoas0"]
 size = Vector2(126, 16)
@@ -19,10 +19,8 @@ texture = ExtResource("1_uj2id")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_xoas0")
 
-[node name="Smoke" parent="." instance=ExtResource("3_36wga")]
-position = Vector2(60, 0)
-scale = Vector2(5, 5)
+[node name="Spray" parent="." instance=ExtResource("3_cjd0s")]
+position = Vector2(50, 2.08165e-12)
 
-[node name="Smoke2" parent="." instance=ExtResource("3_36wga")]
-position = Vector2(-60, 5.96046e-08)
-scale = Vector2(5, 5)
+[node name="Spray2" parent="." instance=ExtResource("3_cjd0s")]
+position = Vector2(-51, 2.08165e-12)
