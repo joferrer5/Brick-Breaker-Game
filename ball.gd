@@ -10,6 +10,7 @@ const VELOCITY_LIMIT = 40
 @export var lifes = 3
 @export var death_zone: DeathZone
 @export var ui: UI
+@onready var ball_hit_brick = $BallHitBrick
 
 var speed_up_factor = 1.05
 var start_position: Vector2
@@ -36,6 +37,7 @@ func _physics_process(delta):
 	if collider is Brick:
 		collider.decrease_level()
 		ball_hitting_brick.play()
+		
 		
 	if (collider is Paddle):
 		ball_collision(collider)

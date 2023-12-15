@@ -1,9 +1,2 @@
 res://Scenes/main.tscn
-res://paddle.tscn
-res://ball.tscn
-res://wall.tscn
-res://death_zone.tscn
-res://ui.tscn
-res://brick.tscn
-res://Scenes/spray.tscn
-res://Scenes/smoke.tscn
+res://Scripts/level_definitions.gd

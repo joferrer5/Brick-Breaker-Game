@@ -1,18 +1,19 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1701984342
-ball.gd::GDScript::-1::1701723041::0::1::::Ball<>CharacterBody2D<>::
-ball.tscn::PackedScene::3080129578223165103::1701807879::0::1::::<><>::res://ball.gd<>uid://c8l7ke1ygg27h::::res://Assets/Ball.png
+::res://::1702677124
+ball.gd::GDScript::-1::1702676073::0::1::::Ball<>CharacterBody2D<>::
+ball.tscn::PackedScene::3080129578223165103::1702676647::0::1::::<><>::res://ball.gd<>uid://c8l7ke1ygg27h::::res://Assets/Ball.png<>uid://bfayylom8gbc3::::res://ball_hit_brick.tscn
+ball_hit_brick.tscn::PackedScene::2738865568737050276::1702676647::0::1::::<><>::uid://d2uo3lxmfyyw2::::res://Assets/Smoke &amp; Fire(1).png
 brick.gd::GDScript::-1::1701723041::0::1::::Brick<>RigidBody2D<>::
-brick.tscn::PackedScene::5907814955544000109::1701807879::0::1::::<><>::uid://d06ws4g0pu0q0::::res://Assets/Brick-Blue.png<>res://brick.gd
+brick.tscn::PackedScene::5907814955544000109::1702676647::0::1::::<><>::uid://d06ws4g0pu0q0::::res://Assets/Brick-Blue.png<>res://brick.gd
 brick_spawner.gd::GDScript::-1::1701807290::0::1::::BrickSpawner<>Node<>::
 death_zone.gd::GDScript::-1::1701723041::0::1::::DeathZone<>Area2D<>::
-death_zone.tscn::PackedScene::7201555047689970912::1701807879::0::1::::<><>::res://death_zone.gd
+death_zone.tscn::PackedScene::7201555047689970912::1702676647::0::1::::<><>::res://death_zone.gd
 icon.svg::CompressedTexture2D::8357895035410672973::1699911032::1699911032::1::::<><>::
-paddle.tscn::PackedScene::8136398106871017803::1701984331::0::1::::<><>::res://Scripts/paddle.gd<>uid://ckbmlemetbql1::::res://Assets/Paddle.png<>uid://1vrafnyq1tsg::::res://Scenes/smoke.tscn
+paddle.tscn::PackedScene::8136398106871017803::1702676647::0::1::::<><>::res://Scripts/paddle.gd<>uid://ckbmlemetbql1::::res://Assets/Paddle.png<>uid://drylkiy50g8qr::::res://Scenes/spray.tscn
 rigid_body_2d.tscn::PackedScene::678211404581264235::1699911038::0::1::::<><>::
-ui.tscn::PackedScene::3231201978563133569::1701807879::0::1::::<><>::uid://b4pqfbvte11k6::::res://Assets/VT323-Regular.ttf<>res://Scripts/ui.gd
-wall.tscn::PackedScene::2006244613121429656::1701807879::0::1::::<><>::
-::res://Assets/::1701984331
+ui.tscn::PackedScene::3231201978563133569::1702676647::0::1::::<><>::uid://b4pqfbvte11k6::::res://Assets/VT323-Regular.ttf<>res://Scripts/ui.gd
+wall.tscn::PackedScene::2006244613121429656::1702676647::0::1::::<><>::
+::res://Assets/::1702590389
 Ball.png::CompressedTexture2D::7113742415800555843::1699911032::1699911032::1::::<><>::
 Brick-Blue.png::CompressedTexture2D::8979348304139843021::1699911032::1699911032::1::::<><>::
 Brick-Gray.png::CompressedTexture2D::8342798054112985360::1699911032::1699911032::1::::<><>::
@@ -23,6 +24,8 @@ Brick-Yellow.png::CompressedTexture2D::5772095262280393697::1699911032::16999110
 Fumacinha.png::CompressedTexture2D::3839941622496323869::1701984331::1701984331::1::::<><>::
 icon.svg::CompressedTexture2D::7753658774376271310::1699911032::1699911032::1::::<><>::
 Paddle.png::CompressedTexture2D::5477542658004981000::1699911032::1699911032::1::::<><>::
+Smoke &amp; Fire(1).png::CompressedTexture2D::9096549038355672375::1702590343::1702590389::1::::<><>::
+Smoke &amp; Fire.png::CompressedTexture2D::6304501134183446998::1702590089::1702590132::1::::<><>::
 SmokeBrickBreaker.png::CompressedTexture2D::2148893255139238360::1701984331::1701984331::1::::<><>::
 toppng.com-smoke-particle-texture-399x385.png::CompressedTexture2D::4949762081018095670::1701984331::1701984331::1::::<><>::
 VT323-Regular.ttf::FontFile::4453843302194638347::1699911032::1699911032::1::::<><>::
@@ -43,13 +46,13 @@ pluh.mp3::AudioStreamMP3::7362211293335990180::1701381834::1701381848::1::::<><>
 Retro Inspect Sound%2C UI%2C or In-Game Notification.mp3::AudioStreamMP3::1916736164580954702::1701723041::1701723041::1::::<><>::
 Untitled song.mp3::AudioStreamMP3::4664913010120011922::1701723041::1701723041::1::::<><>::
 WallHitSound.mp3::AudioStreamMP3::3757222187133675730::1701723041::1701723041::1::::<><>::
-::res://Scenes/::1701984331
-ball.tscn::PackedScene::690919000782378667::1699911094::0::1::::<><>::res://ball.gd<>uid://c8l7ke1ygg27h::::res://Assets/Ball.png
-brick.tscn::PackedScene::8331612800525191601::1699911038::0::1::::<><>::uid://d06ws4g0pu0q0::::res://Assets/Brick-Blue.png<>res://Scenes/brick.gd
-main.tscn::PackedScene::5014516985101129416::1701807879::0::1::::<><>::uid://dn6lj2aumq8ah::::res://paddle.tscn<>uid://j3xlni1mmnax::::res://Scenes/ball.tscn<>uid://3t3s5l0jjqiq::::res://wall.tscn<>uid://drylkiy50g8qr::::res://Scenes/spray.tscn<>uid://dauqta0uydf8s::::res://death_zone.tscn<>uid://bmbhooyv4lkxd::::res://ui.tscn<>res://brick_spawner.gd<>uid://cqf134v8pgqqn::::res://brick.tscn<>uid://cuh32xi5u1ulq::::res://Audio/BOUNCE SOUND FX.mp3<>uid://btsa5u7wurpxa::::res://Audio/WallHitSound.mp3<>uid://2kqmnp6nwgeo::::res://Audio/Retro Inspect Sound%2C UI%2C or In-Game Notification.mp3<>uid://b7pyo2xye4ukg::::res://Audio/Untitled song.mp3<>uid://375ecdntdmfy::::res://Audio/crowd_small_chil_ec049202_9klCwI6.mp3
-smoke.tscn::PackedScene::1869294340113211334::1701984331::0::1::::<><>::uid://5u67tnpvqsa7::::res://Assets/SmokeBrickBreaker.png
-spray.tscn::PackedScene::8402703662541621173::1701807879::0::1::::<><>::
-::res://Scripts/::1701807991
-level_definitions.gd::GDScript::-1::1701807991::0::1::::<>Node<>::
+::res://Scenes/::1702676647
+ball.tscn::PackedScene::690919000782378667::1699911094::0::1::::<><>::res://ball.gd<>uid://c8l7ke1ygg27h
+brick.tscn::PackedScene::8331612800525191601::1699911038::0::1::::<><>::uid://d06ws4g0pu0q0
+main.tscn::PackedScene::5014516985101129416::1702676647::0::1::::<><>::uid://dn6lj2aumq8ah::::res://paddle.tscn<>uid://j3xlni1mmnax::::res://Scenes/ball.tscn<>uid://3t3s5l0jjqiq::::res://wall.tscn<>uid://drylkiy50g8qr::::res://Scenes/spray.tscn<>uid://dauqta0uydf8s::::res://death_zone.tscn<>uid://bmbhooyv4lkxd::::res://ui.tscn<>res://brick_spawner.gd<>uid://cqf134v8pgqqn::::res://brick.tscn<>uid://cuh32xi5u1ulq::::res://Audio/BOUNCE SOUND FX.mp3<>uid://btsa5u7wurpxa::::res://Audio/WallHitSound.mp3<>uid://2kqmnp6nwgeo::::res://Audio/Retro Inspect Sound%2C UI%2C or In-Game Notification.mp3<>uid://b7pyo2xye4ukg::::res://Audio/Untitled song.mp3<>uid://375ecdntdmfy::::res://Audio/crowd_small_chil_ec049202_9klCwI6.mp3
+smoke.tscn::PackedScene::1869294340113211334::1702676647::0::1::::<><>::uid://5u67tnpvqsa7::::res://Assets/SmokeBrickBreaker.png
+spray.tscn::PackedScene::8402703662541621173::1702676647::0::1::::<><>::
+::res://Scripts/::1702676647
+level_definitions.gd::GDScript::-1::1702676647::0::1::::<>Node<>::
 paddle.gd::GDScript::-1::1701726110::0::1::::Paddle<>RigidBody2D<>::
 ui.gd::GDScript::-1::1701807604::0::1::::UI<>CanvasLayer<>::
